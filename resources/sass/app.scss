@@ -1,0 +1,50 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+$fa-font-path: "../webfonts";
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import '~admin-lte/dist/css/adminlte.css';
+
+@import "~@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "~@fortawesome/fontawesome-free/scss/solid.scss";
+@import "~@fortawesome/fontawesome-free/scss/brands.scss";
+
+.router-link-exact-active {
+    background-color: $indigo;
+}
+
+.blue {
+    background-color: $blue;
+}
+.indigo {
+    background-color:  $indigo;
+}
+.purple {
+    background-color:  $purple;
+}
+.pink {
+    background-color: $pink;
+}
+.red {
+    color: $red;
+}
+.orange {
+    background-color:  $orange;
+}
+.yellow {
+    background-color:  $yellow;
+}
+.green {
+    background-color: $green;
+}
+.teal {
+    background-color: $teal;
+}
+.cyan {
+    background-color: $cyan;
+}
